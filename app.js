@@ -3,7 +3,7 @@
   const THEME_KEY = "pronto.theme.v1";
   // Depois de publicar o Cloudflare Worker, cole aqui a URL pública dele.
   // Nunca coloque a chave da API Gemini neste arquivo.
-  const AI_ENDPOINT = "COLE_AQUI_A_URL_DO_SEU_CLOUDFLARE_WORKER";
+  const AI_ENDPOINT = "https://pronto-ia.jader09499.workers.dev/";
   let tasks = loadTasks();
   let aiRequestNumber = 0;
   let currentFilter = "all";
